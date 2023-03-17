@@ -1,6 +1,9 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+html {
   margin-top: 80px;
-  background-color: #171717;
+  background-attachment: fixed;
+  background:linear-gradient(to left top,#171717,#0e0f1c);
+  min-height: 100%;
 }
 #countdown {
   display: flex;
@@ -30,7 +33,8 @@ body {
   font-family: monospace;
 }
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  user-select: none;
+  font-family: Kanit;
   color: white;
   text-align: center;
   font-size: 3em;
@@ -46,9 +50,10 @@ h1 {
   background-color: #232323;
   border:2px;
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
   color:#565656;
   cursor:text;
+  border-radius: 5px;
 }
 #timeD {
   text-align: center;
@@ -65,5 +70,25 @@ footer
     background-color: #232323;
 }
 p {
-  color: #686868
+  color: #686868;
+  font-family: Kanit;
+}
+hr
+{
+  margin-bottom: 30px;
+  border-width: 2px;
+  width: 80%;
+  border-color: #4f4f4f;
+}
+h2
+{
+  font-family: Kanit;
+  color: #aca9a9;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+a
+{
+  text-decoration: none;
+  color: #547683;
 }
